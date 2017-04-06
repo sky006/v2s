@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="v2s.Converter">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="_ffExe" Hidden="true" />
+      <Field Name="_WorkingPath" Hidden="true" />
+      <Method Name="ConvertToFLV" Hidden="true" />
+      <Method Name="GetVideoInfo" Hidden="true" />
+      <Method Name="LoadImageFromFile" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgCAKAAACAASAAAAAEAAAAATYAAAAAQAAAAAIQAAI=</HashCode>
+      <FileName>Converter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="音频文件" />
+      <Property Name="视频文件" />
+      <Property Name="输出结果" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="v2s.VideoFile">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_Path" Hidden="true" />
+      <Property Name="AudioFormat" Hidden="true" />
+      <Property Name="Height" Hidden="true" />
+      <Property Name="RawInfo" Hidden="true" />
+      <Property Name="Width" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABCAAAABCACAQIAAAAAAEAAAAABAAIAAAAAAAIAAAA=</HashCode>
+      <FileName>Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="v2s.AudioFile">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="_Path" Hidden="true" />
+      <Property Name="RawInfo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABCAAAAACACAQIAAAAAAAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="v2s.OutputPackage">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="v2s.Form1">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="dst_lan_label" Hidden="true" />
+      <Method Name="Form1" Hidden="true" />
+      <Method Name="Form1_Load" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="message" Hidden="true" />
+      <Field Name="openFileDialog1" Hidden="true" />
+      <Field Name="saveFileDialog1" Hidden="true" />
+      <Field Name="src_lan_label" Hidden="true" />
+      <Field Name="video_len_label" Hidden="true" />
+      <Field Name="打开ToolStripMenuItem" Hidden="true" />
+      <Method Name="打开ToolStripMenuItem_Click" Hidden="true" />
+      <Method Name="关闭ToolStripMenuItem_Click" Hidden="true" />
+      <Field Name="文件ToolStripMenuItem" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BQAAAAAAACFQwAAAAYCAQCADAAAAgAUAAQQAAAFAACQ=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="使用" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
